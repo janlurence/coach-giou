@@ -1,0 +1,28 @@
+Website mirror report
+=====================
+Source: https://zunedaalim.com/
+Output: /Volumes/drive/Document:latest/landing-pages-clones/coach-giou
+Elapsed: 1.0s
+
+html: 1
+css: 1
+js: 13
+images: 10
+fonts: 12
+video: 0
+audio: 0
+other: 1
+failed: 0
+
+Top-level output:
+- 1.webp
+- _external/
+- _next/
+- cdn-cgi/
+- favicon.ico
+- index.html
+- index.txt
+- menu.svg
+- mirror-manifest.json
+- mirror-report.txt
+- og-image.jpg

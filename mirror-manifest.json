@@ -1,0 +1,197 @@
+[
+  {
+    "path": "1.webp",
+    "size": 96730,
+    "type": "image/webp"
+  },
+  {
+    "path": "_external/res.cloudinary.com/dnocsf5bq/image/upload/w_10,q_1/v1748325060/1_phf5ng.webp",
+    "size": 70,
+    "type": "image/webp"
+  },
+  {
+    "path": "_external/res.cloudinary.com/dnocsf5bq/image/upload/w_10,q_1/v1748325060/2_frjjt5.webp",
+    "size": 62,
+    "type": "image/webp"
+  },
+  {
+    "path": "_external/res.cloudinary.com/dnocsf5bq/image/upload/w_10,q_1/v1748325061/6_jugckf.webp",
+    "size": 58,
+    "type": "image/webp"
+  },
+  {
+    "path": "_external/res.cloudinary.com/dnocsf5bq/image/upload/w_10,q_1/v1748325062/7_lfufd9.webp",
+    "size": 72,
+    "type": "image/webp"
+  },
+  {
+    "path": "_external/res.cloudinary.com/dnocsf5bq/image/upload/w_10,q_1/v1748325070/3_nzf5vb.jpg",
+    "size": 3448,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "_external/static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496.js",
+    "size": 72004,
+    "type": "text/javascript"
+  },
+  {
+    "path": "_next/static/chunks/4bd1b696-ad45a0d75f1c7ab5.js",
+    "size": 365780,
+    "type": "text/javascript"
+  },
+  {
+    "path": "_next/static/chunks/6-37ca770f622b4e06.js",
+    "size": 710417,
+    "type": "text/javascript"
+  },
+  {
+    "path": "_next/static/chunks/684-4d42f4a57efc64cd.js",
+    "size": 329949,
+    "type": "text/javascript"
+  },
+  {
+    "path": "_next/static/chunks/874-8179e1aff5ec9a87.js",
+    "size": 16254,
+    "type": "text/javascript"
+  },
+  {
+    "path": "_next/static/chunks/app/layout-9b1080425e8fe3f9.js",
+    "size": 33209,
+    "type": "text/javascript"
+  },
+  {
+    "path": "_next/static/chunks/app/not-found-3162d3e97dac626c.js",
+    "size": 2152,
+    "type": "text/javascript"
+  },
+  {
+    "path": "_next/static/chunks/app/page-77f38f7782b59527.js",
+    "size": 100788,
+    "type": "text/javascript"
+  },
+  {
+    "path": "_next/static/chunks/c15bf2b0-d67976aba37a88f8.js",
+    "size": 116650,
+    "type": "text/javascript"
+  },
+  {
+    "path": "_next/static/chunks/main-app-037964b5d318d5f2.js",
+    "size": 691,
+    "type": "text/javascript"
+  },
+  {
+    "path": "_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "size": 208467,
+    "type": "text/javascript"
+  },
+  {
+    "path": "_next/static/chunks/webpack-6b761421cff961fb.js",
+    "size": 6456,
+    "type": "text/javascript"
+  },
+  {
+    "path": "_next/static/css/a389311a49d4f5ee.css",
+    "size": 52310,
+    "type": "text/css"
+  },
+  {
+    "path": "_next/static/media/028c0d39d2e8f589-s.p.woff2",
+    "size": 58512,
+    "type": "font/woff2"
+  },
+  {
+    "path": "_next/static/media/19cfc7226ec3afaa-s.woff2",
+    "size": 19044,
+    "type": "font/woff2"
+  },
+  {
+    "path": "_next/static/media/21350d82a1f187e9-s.woff2",
+    "size": 18744,
+    "type": "font/woff2"
+  },
+  {
+    "path": "_next/static/media/5b01f339abf2f1a5.p.woff2",
+    "size": 58092,
+    "type": "font/woff2"
+  },
+  {
+    "path": "_next/static/media/772d87814c6d4363-s.p.woff2",
+    "size": 72520,
+    "type": "font/woff2"
+  },
+  {
+    "path": "_next/static/media/77884a8189c63c95-s.p.woff2",
+    "size": 149280,
+    "type": "font/woff2"
+  },
+  {
+    "path": "_next/static/media/8e9860b6e62d6359-s.woff2",
+    "size": 85272,
+    "type": "font/woff2"
+  },
+  {
+    "path": "_next/static/media/a02a323226559df3-s.p.woff2",
+    "size": 68544,
+    "type": "font/woff2"
+  },
+  {
+    "path": "_next/static/media/arrow.d4e31afc.svg",
+    "size": 911,
+    "type": "image/svg+xml"
+  },
+  {
+    "path": "_next/static/media/ba9851c3c22cd980-s.woff2",
+    "size": 25844,
+    "type": "font/woff2"
+  },
+  {
+    "path": "_next/static/media/c5fe6dc8356a8c31-s.woff2",
+    "size": 11272,
+    "type": "font/woff2"
+  },
+  {
+    "path": "_next/static/media/df0a9ae256c0569c-s.woff2",
+    "size": 10280,
+    "type": "font/woff2"
+  },
+  {
+    "path": "_next/static/media/e4af272ccee01ff0-s.p.woff2",
+    "size": 48432,
+    "type": "font/woff2"
+  },
+  {
+    "path": "cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js",
+    "size": 19964,
+    "type": "text/javascript"
+  },
+  {
+    "path": "favicon.ico",
+    "size": 15406,
+    "type": "image/x-icon"
+  },
+  {
+    "path": "index.html",
+    "size": 171998,
+    "type": "text/html"
+  },
+  {
+    "path": "index.txt",
+    "size": 9983,
+    "type": "text/plain"
+  },
+  {
+    "path": "menu.svg",
+    "size": 850,
+    "type": "image/svg+xml"
+  },
+  {
+    "path": "mirror-report.txt",
+    "size": 411,
+    "type": "text/plain"
+  },
+  {
+    "path": "og-image.jpg",
+    "size": 66932,
+    "type": "image/jpeg"
+  }
+]
