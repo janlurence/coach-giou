@@ -4,7 +4,71 @@
  *   python3 apply-giou-data.py
  */
 (function () {
-  const APPLY_DELAYS = [500, 2000, 4500, 7000];
+  const APPLY_DELAYS = [500, 1500, 3000, 5000, 8000, 12000];
+  let worksObserver = null;
+
+  function applyWorksData(worksSection, items) {
+    if (!worksSection || !items?.length) return;
+
+    items.forEach((project, index) => {
+      const card =
+        worksSection.querySelector(`[data-index="${index}"]`) ||
+        worksSection.querySelectorAll("aside .\\@container, aside [data-index]")[index];
+      if (!card) return;
+
+      const link = card.querySelector("a");
+      if (link && project.link) {
+        link.href = project.link;
+      }
+
+      if (project.image) {
+        const imageSrc =
+          project.image.startsWith("http") || project.image.startsWith("/")
+            ? project.image
+            : `/${encodeURI(project.image.replace(/^\.\//, ""))}`;
+        card.querySelectorAll("img").forEach((img) => {
+          img.src = imageSrc;
+          img.srcset = "";
+          img.removeAttribute("srcset");
+          if (img.getAttribute("alt") === "background" || !img.alt) {
+            img.alt = project.name || "Project preview";
+          }
+        });
+      }
+
+      const headings = card.querySelectorAll("h1.font-mono");
+      if (headings[0] && project.type) {
+        headings[0].textContent = project.type;
+      }
+      if (headings[1] && project.name) {
+        headings[1].textContent = project.name;
+      }
+
+      const tags = card.querySelectorAll("span.tag");
+      if (tags[0] && project.type) {
+        tags[0].textContent = project.type;
+      }
+      if (tags[1] && project.year) {
+        tags[1].textContent = project.year;
+      }
+    });
+  }
+
+  function watchWorksLabels(worksSection, items) {
+    if (!worksSection || worksObserver) return;
+
+    let timer = null;
+    worksObserver = new MutationObserver(() => {
+      clearTimeout(timer);
+      timer = setTimeout(() => applyWorksData(worksSection, items), 250);
+    });
+
+    worksObserver.observe(worksSection, {
+      subtree: true,
+      childList: true,
+      characterData: true,
+    });
+  }
 
   function charSpans(text) {
     return text
@@ -168,48 +232,8 @@
 
     const worksSection = document.getElementById("Works");
     if (worksSection && data.works?.items) {
-      const projectCards = worksSection.querySelectorAll("aside .\\@container, aside [data-index]");
-      data.works.items.forEach((project, index) => {
-        const card = projectCards[index];
-        if (!card) return;
-
-        const link = card.querySelector("a");
-        if (link && project.link) {
-          link.href = project.link;
-        }
-
-        if (project.image) {
-          const imageSrc = project.image.startsWith("http") || project.image.startsWith("/")
-            ? project.image
-            : `/${encodeURI(project.image.replace(/^\.\//, ""))}`;
-          card.querySelectorAll("img").forEach((img) => {
-            img.src = imageSrc;
-            img.srcset = "";
-            img.removeAttribute("srcset");
-            if (img.getAttribute("alt") === "background" || !img.alt) {
-              img.alt = project.name || "Project preview";
-            }
-          });
-        }
-
-        const headings = card.querySelectorAll("h1.font-mono");
-        if (headings[0]) {
-          headings[0].textContent = project.type;
-          headings[0].innerText = project.type;
-        }
-        if (headings[1]) {
-          headings[1].textContent = project.name;
-          headings[1].innerText = project.name;
-        }
-
-        const tags = card.querySelectorAll("span.tag");
-        if (tags[0] && project.type) {
-          tags[0].textContent = project.type;
-        }
-        if (tags[1] && project.year) {
-          tags[1].textContent = project.year;
-        }
-      });
+      applyWorksData(worksSection, data.works.items);
+      watchWorksLabels(worksSection, data.works.items);
     }
 
     const aboutSection = document.getElementById("About");

@@ -774,10 +774,22 @@ def patch_work_card_links(js: str) -> str:
 
 
 def ensure_runtime_scripts(html: str) -> str:
-    loader_tag = '<script src="data-loader.js" defer></script>'
-    modal_tag = '<script src="works-modal.js" defer></script>'
+    loader_tag = '<script src="data-loader.js?v=7" defer></script>'
+    modal_tag = '<script src="works-modal.js?v=4" defer></script>'
     html = html.replace('\n      <script src="works-modal.js" defer></script>', "")
     html = html.replace('<script src="works-modal.js" defer></script>', "")
+    html = html.replace('<script src="data-loader.js?v=6" defer></script>', "")
+    html = html.replace('<script src="data-loader.js" defer></script>', "")
+    html = html.replace('<script src="works-popup.js?v=3" defer></script>', "")
+    html = html.replace('<script src="works-popup.js" defer></script>', "")
+    html = html.replace(
+        'src="_next/static/chunks/app/page-77f38f7782b59527.js?v=6"',
+        'src="_next/static/chunks/app/page-77f38f7782b59527.js?v=7"',
+    )
+    html = html.replace(
+        'src="_next/static/chunks/app/page-77f38f7782b59527.js"',
+        'src="_next/static/chunks/app/page-77f38f7782b59527.js?v=7"',
+    )
     if loader_tag not in html:
         html = html.replace("</body>", f"    {loader_tag}\n  </body>")
     if modal_tag not in html:
