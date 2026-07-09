@@ -360,12 +360,25 @@ def patch_html(html: str, data: dict) -> str:
         ('content="Zuned Aalim"', f'content="{data["name"]}"'),
         ('content="@ZunedAalim"', f'content="{data["name"]}"'),
         ("https://zunedaalim.com", data["seo_url"]),
+        ("https://gioubellingan.com", data["seo_url"]),
         ("Zuned Aalim Portfolio", f'{data["name"]} Portfolio'),
         ("Web Developer &amp; Designer", data["tagline"]),
         ("Web Developer \\u0026 Designer", data["tagline"]),
         ("Web Systems for Growing Businesses", data["tagline"]),
     ]
+    og_image_url = f'{data["seo_url"].rstrip("/")}/og-image.jpg?v=3'
+    og_meta_pairs = [
+        ('content="og-image.jpg" property="og:image"', f'content="{og_image_url}" property="og:image"'),
+        ('content="og-image.jpg" name="twitter:image"', f'content="{og_image_url}" name="twitter:image"'),
+        ('content="https://zunedaalim.com/og-image.jpg"', f'content="{og_image_url}"'),
+        ('content="https://gioubellingan.com/og-image.jpg"', f'content="{og_image_url}"'),
+        ('content="https://gioubellingan.vercel.app/og-image.jpg?v=2"', f'content="{og_image_url}"'),
+        ('content="https://gioubellingan.vercel.app/og-image.jpg"', f'content="{og_image_url}"'),
+        ('content="@ZunedAalim"', f'content="{data["name"]}"'),
+    ]
     for old, new in meta_pairs:
+        html = html.replace(old, new)
+    for old, new in og_meta_pairs:
         html = html.replace(old, new)
 
     profile_src = public_image_path(data["profile_image"])
@@ -774,11 +787,11 @@ def patch_work_card_links(js: str) -> str:
 
 
 def ensure_runtime_scripts(html: str) -> str:
-    loader_tag = '<script src="data-loader.js?v=7" defer></script>'
+    loader_tag = '<script src="data-loader.js?v=8" defer></script>'
     modal_tag = '<script src="works-modal.js?v=4" defer></script>'
     html = html.replace('\n      <script src="works-modal.js" defer></script>', "")
     html = html.replace('<script src="works-modal.js" defer></script>', "")
-    html = html.replace('<script src="data-loader.js?v=6" defer></script>', "")
+    html = html.replace('<script src="data-loader.js?v=7" defer></script>', "")
     html = html.replace('<script src="data-loader.js" defer></script>', "")
     html = html.replace('<script src="works-popup.js?v=3" defer></script>', "")
     html = html.replace('<script src="works-popup.js" defer></script>', "")

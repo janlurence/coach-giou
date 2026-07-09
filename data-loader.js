@@ -134,6 +134,9 @@
     setMeta("og:title", data.seo?.title, "property");
     setMeta("og:description", data.seo?.description, "property");
     setMeta("og:site_name", `${data.identity?.name} Portfolio`, "property");
+    const ogImage = data.seo?.ogImage || `${(data.seo?.url || window.location.origin).replace(/\/$/, "")}/og-image.jpg?v=3`;
+    setMeta("og:image", ogImage, "property");
+    setMeta("twitter:image", ogImage);
 
     const headerTagline = document.querySelector("header span.block.w-fit");
     if (headerTagline && data.identity?.tagline) {
