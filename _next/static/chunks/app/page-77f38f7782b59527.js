@@ -383,14 +383,14 @@
                             children: "EMAIL ADDRESS",
                           }),
                           (0, s.jsxs)("a", {
-                            href: "mailto:contact@zunedaalim.com",
+                            href: "mailto:gioukeannu@gmail.com",
                             onClick: () => t(!1),
                             className:
                               "link-text relative block h-fit overflow-hidden font-mono font-medium",
                             children: [
                               " ",
                               (0, s.jsx)(u.A, {
-                                children: "contact@zunedaalim.com",
+                                children: "gioukeannu@gmail.com",
                               }),
                             ],
                           }),
@@ -402,12 +402,12 @@
                         children: [
                           (0, s.jsx)(h(), {
                             target: "_blank",
-                            href: "https://www.linkedin.com/in/zunedaalim/",
+                            href: "https://www.linkedin.com/in/giou-keannu-bellingan-94802827a/",
                             children: "LinkedIn",
                           }),
                           (0, s.jsx)(h(), {
                             target: "_blank",
-                            href: "https://github.com/zunedaalim",
+                            href: "https://github.com/giouuuu",
                             children: "Github",
                           }),
                           (0, s.jsx)(h(), {
@@ -535,7 +535,7 @@
                                 children: (0, s.jsx)(i, {
                                   delay: 0.3,
                                   delayperwords: 0,
-                                  text: "I specialize in building fast, reliable, and user-friendly full-stack web applications. I help small businesses and startups turn ideas into high-quality websites and products that actually work and scale.",
+                                  text: "I build custom digital systems for businesses that are ready to grow. Whether you need a professional website, a booking system, a customer portal, or tools to automate daily operations, I create solutions that help your business run smarter, move faster, and scale with confidence.",
                                 }),
                               }),
                             ],
@@ -580,7 +580,7 @@
                                       className:
                                         "max-w-[40ch] text-balance text-[length:var(--text-base)] font-medium text-[var(--color-secondary-50)]",
                                       children: [
-                                        "From frontend interactions to backend APIs, I build complete web solutions. I work with modern stacks to deliver apps that are scalable, maintainable, and ready for real-world users.",
+                                        "I build complete web applications and software systems—from business websites and dashboards to booking tools and custom platforms that support your daily operations.",
                                         " ",
                                       ],
                                     }),
@@ -597,7 +597,7 @@
                                                 "font-mono text-[length:var(--text-base)] font-medium leading-[200%] text-[var(--color-secondary-75)]",
                                               children: ["0", "1"],
                                             }),
-                                            "React, Node.js, Express.js",
+                                            "React, Next.js, Tailwind CSS",
                                             " ",
                                           ],
                                         }),
@@ -610,7 +610,7 @@
                                                 "font-mono text-[length:var(--text-base)] font-medium leading-[200%] text-[var(--color-secondary-75)]",
                                               children: ["0", "2"],
                                             }),
-                                            "REST APIs, Firebase, Docker",
+                                            "Node.js, Express.js, REST APIs",
                                           ],
                                         }),
                                         (0, s.jsxs)("span", {
@@ -622,7 +622,7 @@
                                                 "font-mono text-[length:var(--text-base)] font-medium leading-[200%] text-[var(--color-secondary-75)]",
                                               children: ["0", "3"],
                                             }),
-                                            "Git, GitHub, Postman",
+                                            "Firebase, Supabase, PostgreSQL",
                                           ],
                                         }),
                                       ],
@@ -647,7 +647,7 @@
                                   (0, s.jsx)("h3", {
                                     className:
                                       "col-span-8 col-start-6 py-[var(--space-md)] 2xl:py-[var(--space-sm)]",
-                                    children: "UI/UX & Frontend",
+                                    children: "System Consultant",
                                   }),
                                 ],
                               }),
@@ -662,7 +662,7 @@
                                       className:
                                         "max-w-[40ch] text-balance text-[length:var(--text-base)] font-medium text-[var(--color-secondary-50)]",
                                       children:
-                                        "Good design feels effortless. I design and develop responsive, intuitive interfaces that work smoothly across devices, with a strong focus on clarity, accessibility, and performance.",
+                                        "I help business owners figure out what system they actually need, analyze workflows, and turn requirements into a clear digital solution that saves time and supports growth.",
                                     }),
                                     (0, s.jsxs)("div", {
                                       className:
@@ -677,7 +677,7 @@
                                                 "font-mono text-[length:var(--text-base)] font-medium leading-[200%] text-[var(--color-secondary-75)]",
                                               children: ["0", "1"],
                                             }),
-                                            "NextJs, TailwindCSS, GSAP",
+                                            "Business requirements analysis",
                                           ],
                                         }),
                                         (0, s.jsxs)("span", {
@@ -689,7 +689,7 @@
                                                 "font-mono text-[length:var(--text-base)] font-medium leading-[200%] text-[var(--color-secondary-75)]",
                                               children: ["0", "2"],
                                             }),
-                                            "Figma → Pixel-perfect code",
+                                            "Workflow planning and process improvement",
                                           ],
                                         }),
                                         (0, s.jsxs)("span", {
@@ -701,7 +701,7 @@
                                                 "font-mono text-[length:var(--text-base)] font-medium leading-[200%] text-[var(--color-secondary-75)]",
                                               children: ["0", "3"],
                                             }),
-                                            "HTML, CSS, JavaScript",
+                                            "System architecture and feature planning",
                                           ],
                                         }),
                                       ],
@@ -726,7 +726,7 @@
                                   (0, s.jsx)("h3", {
                                     className:
                                       "col-span-8 col-start-6 py-[var(--space-md)] 2xl:py-[var(--space-sm)]",
-                                    children: "Optimization",
+                                    children: "Business Website & Automation",
                                   }),
                                 ],
                               }),
@@ -741,7 +741,7 @@
                                       className:
                                         "max-w-[40ch] text-balance text-[length:var(--text-base)] font-medium text-[var(--color-secondary-50)]",
                                       children: [
-                                        "I focus on building systems that stay reliable as things scale. From handling data efficiently to designing clean architecture, I apply core computer science principles to keep applications fast, stable, and future-ready.",
+                                        "I create professional websites and automation tools—from landing pages and forms to dashboards and integrations—that help businesses attract customers and run more efficiently.",
                                         " ",
                                       ],
                                     }),
@@ -758,7 +758,7 @@
                                                 "font-mono text-[length:var(--text-base)] font-medium leading-[200%] text-[var(--color-secondary-75)]",
                                               children: ["0", "1"],
                                             }),
-                                            "Data Structures & Algorithms",
+                                            "Landing pages and business websites",
                                           ],
                                         }),
                                         (0, s.jsxs)("span", {
@@ -770,7 +770,7 @@
                                                 "font-mono text-[length:var(--text-base)] font-medium leading-[200%] text-[var(--color-secondary-75)]",
                                               children: ["0", "2"],
                                             }),
-                                            "DBMS, OOP, OS Fundamentals",
+                                            "Forms, dashboards, and customer management",
                                           ],
                                         }),
                                         (0, s.jsxs)("span", {
@@ -782,7 +782,7 @@
                                                 "font-mono text-[length:var(--text-base)] font-medium leading-[200%] text-[var(--color-secondary-75)]",
                                               children: ["0", "3"],
                                             }),
-                                            "Scalable systems & data pipelines",
+                                            "Automation, integrations, and reporting tools",
                                           ],
                                         }),
                                       ],
@@ -829,13 +829,27 @@
               }, [e]),
               { ref: a, isNear: t }
             );
-          })("1200px");
+          })("1200px"),
+          u = /^(?:\.{1,2}\/|\/)|\.(?:png|jpe?g|webp|gif|svg)$/i.test(a);
         return (0, s.jsx)("div", {
           ref: c,
           children: (0, s.jsx)("div", {
             style: { width: "100%", height: "100%" },
             children:
               i &&
+              (u
+                ? (0, s.jsx)(m.default, {
+                    src: a,
+                    alt: t,
+                    loading: "lazy",
+                    fill: !0,
+                    className:
+                      "h-full absolute w-full object-cover object-center transition-opacity duration-700 ease-in-out ".concat(
+                        r,
+                      ),
+                    style: { color: "transparent" },
+                  })
+                :
               (0, s.jsx)(w.dp, {
                 src: a,
                 placeholder: "blur",
@@ -850,7 +864,7 @@
                     r,
                   ),
                 style: { color: "transparent" },
-              }),
+              })),
           }),
         });
       }
@@ -923,6 +937,7 @@
           type: n,
           name: c,
           link: i,
+          year: d,
           blurDataUrl: o,
         } = e;
         return (0, s.jsx)(s.Fragment, {
@@ -931,9 +946,11 @@
             className: "@container ",
             "data-index": t,
             children: (0, s.jsxs)("a", {
-              href: i,
-              target: "_blank",
-              rel: "noopener noreferrer",
+              href: i || "#",
+              onClick: (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+              },
               children: [
                 (0, s.jsxs)("div", {
                   className:
@@ -944,11 +961,12 @@
                       alt: "background",
                       blurDataUrl: o,
                     }),
-                    (0, s.jsx)("div", {
-                      className:
-                        "z-10 aspect-[4/3] w-full overflow-clip rounded-lg",
-                      children: (0, s.jsx)(H, { playbackId: r }),
-                    }),
+                    r &&
+                      (0, s.jsx)("div", {
+                        className:
+                          "z-10 aspect-[4/3] w-full overflow-clip rounded-lg",
+                        children: (0, s.jsx)(H, { playbackId: r }),
+                      }),
                   ],
                 }),
                 (0, s.jsxs)("div", {
@@ -984,12 +1002,12 @@
                       children: [
                         (0, s.jsx)("span", {
                           className: "tag",
-                          children: "Development",
+                          children: n,
                         }),
                         (0, s.jsx)("span", {
                           className:
                             "tag border-[var(--color-secondary-50)] bg-[var(--color-secondary-50)] text-[var(--color-secondary-400)]",
-                          children: "2025",
+                          children: d || "",
                         }),
                       ],
                     }),
@@ -1009,50 +1027,55 @@
           },
           n = [
             {
-              src: "6_jugckf",
-              muxid: "QpLBMxnNQMQHXri9nqPfg1nZLyJn5kg01vXlmX1auvEc",
-              type: "Modern Marketing Website",
-              name: "NURA",
-              link: "https://nurabyzuned.netlify.app/",
+              src: "../../../../UA%20Enterprise.png",
+              muxid: "",
+              type: "Business Website",
+              name: "UA Production System",
+              link: "#",
+              year: "6",
               blurDataUrl:
                 "../../../../_external/res.cloudinary.com/dnocsf5bq/image/upload/w_10,q_1/v1748325061/6_jugckf.webp",
             },
             {
-              src: "3_nzf5vb",
-              muxid: "ZV01irv5jPmaRLo6XEcm5o4QHrEd9g6Rr5GyqdMd1R6g",
-              type: "Full-Stack Recruitment Platform",
-              name: "Job Portal",
-              link: "https://zunedjobs.netlify.app/",
+              src: "../../../../kp.png",
+              muxid: "",
+              type: "Dashboard",
+              name: "King Pata POS",
+              link: "#",
+              year: "2026",
               blurDataUrl:
-                "../../../../_external/res.cloudinary.com/dnocsf5bq/image/upload/w_10,q_1/v1748325070/3_nzf5vb.jpg",
+                "../../../../kp.png",
             },
             {
               src: "2_frjjt5",
-              muxid: "viGHALwiNN7x4lw9K5ieeljgwL3z02KfplK56WNafF9k",
-              type: "SAAS Platform",
-              name: "Productivity SAAS",
-              link: "https://productivity-saas-zuned.netlify.app/",
+              muxid: "",
+              type: "Business Tool",
+              name: "UA Production and Inventory System Mobile App",
+              link: "#",
+              year: "2026",
               blurDataUrl:
                 "../../../../_external/res.cloudinary.com/dnocsf5bq/image/upload/w_10,q_1/v1748325060/2_frjjt5.webp",
             },
             {
-              src: "7_lfufd9",
-              muxid: "6XNHwd01zOc87HAEvIL44GrSDL5vNQv9WSo00o02aNEeRg",
-              type: "ML Recommendation Engine",
-              name: "CineRec",
-              link: "https://movierecommendation-sbjn.onrender.com/",
+              src: "../../../../FSA.png",
+              muxid: "",
+              type: "Business Tool",
+              name: "Field Sales Automation",
+              link: "#",
+              year: "2026",
               blurDataUrl:
                 "../../../../_external/res.cloudinary.com/dnocsf5bq/image/upload/w_10,q_1/v1748325062/7_lfufd9.webp",
             },
             {
-              src: "1_phf5ng",
-              muxid: "KgB1H01cuYG14gDffVE1MPflRm4vG7z2YgTcsZN6Bplg",
-              type: "Code-to-Image Tool",
-              name: "Code2Img",
-              link: "https://code2img-zuned.netlify.app/",
+              src: "../../../../so.png",
+              muxid: "",
+              type: "Marketing Website",
+              name: "Sales Order And Invoice System",
+              link: "#",
+              year: "2025",
               blurDataUrl:
-                "../../../../_external/res.cloudinary.com/dnocsf5bq/image/upload/w_10,q_1/v1748325060/1_phf5ng.webp",
-            },
+                "../../../../so.png",
+            }
           ];
         return (
           (0, l.useEffect)(() => {
@@ -1161,6 +1184,7 @@
                             type: e.type,
                             name: e.name,
                             link: e.link,
+                            year: e.year,
                             blurDataUrl: e.blurDataUrl,
                           },
                           a,
@@ -1177,35 +1201,32 @@
       ((A.displayName = "Box"), d.os.registerPlugin(x.u));
       let E = {
         "Languages & Tools": [
+          "TypeScript",
+          "JavaScript",
           "Python",
           "SQL",
-          "C++",
-          "Java",
-          "Typescript",
-          "JavaScript",
           "Git",
-          "Postman",
-          "Docker",
+          "PostgreSQL",
           "Firebase",
+          "Supabase",
         ],
         "Frameworks & Libraries": [
           "React",
+          "Laravel",
+          "Fast API",
+          "Next.js",
+          "Tailwind CSS",
           "Node.js",
           "Express.js",
-          "Flask",
-          "Bootstrap",
-          "jQuery",
-          "TailwindCSS",
-          "Framer Motion",
-          "GSAP",
+          "REST APIs",
         ],
-        "Core CS Concepts": [
-          "DSA",
-          "DBMS",
-          "OOP",
-          "Operating Systems",
-          "System Design",
-        ],
+        "Business & Systems": [
+          "Business requirements analysis",
+          "Workflow planning and process improvement",
+          "System architecture and feature planning",
+          "Landing pages and business websites",
+          "Forms, dashboards, and customer management",
+        ]
       };
       function z() {
         return (0, s.jsx)("section", {
@@ -1306,19 +1327,19 @@
                         children: [
                           (0, s.jsx)("span", {
                             children: (0, s.jsx)(o, {
-                              text: "DEVELOPER",
+                              text: "BUSINESS",
                               delay: 0,
                             }),
                           }),
                           (0, s.jsx)("span", {
                             children: (0, s.jsx)(o, {
-                              text: "DESIGNER",
+                              text: "SYSTEMS",
                               delay: 0.3,
                             }),
                           }),
                           (0, s.jsx)("span", {
                             children: (0, s.jsx)(o, {
-                              text: "CREATOR/",
+                              text: "/",
                               delay: 0.6,
                             }),
                           }),
@@ -1339,9 +1360,9 @@
                         className:
                           "pointer-events-none max-h-[30rem] relative z-0 col-span-3 flex aspect-square w-full items-center overflow-clip rounded-md sm:aspect-auto md:items-end",
                         children: (0, s.jsx)(m.default, {
-                          src: "../../../../1.webp",
+                          src: "/profile.jpg",
                           priority: !0,
-                          alt: "Just an Image.",
+                          alt: "Giou Bellingan",
                           width: 1536,
                           height: 2040,
                           className: "h-full w-full object-cover object-center",
@@ -1357,7 +1378,7 @@
                             children: (0, s.jsx)(i, {
                               delayperwords: 0,
                               delay: 0.5,
-                              text: "I'm a software engineer driven by a passion for turning ideas into clean, intuitive digital experiences.",
+                              text: "I turn manual workflows into digital systems that save time.",
                             }),
                           }),
                           (0, s.jsxs)("div", {
@@ -1381,12 +1402,12 @@
                                   "flex w-full gap-y-4 max-w-[38ch] flex-col text-balance text-[length:var(--text-base)] font-medium leading-base text-[var(--color-secondary-50)]",
                                 children: [
                                   (0, s.jsx)(i, {
-                                    text: "I’m a full-stack developer who builds fast, modern web applications mostly with Next.js and Tailwind CSS because they just work. I work with businesses and startups to turn ideas into reliable, user-friendly products built to scale. ",
+                                    text: "I build websites, dashboards, and automations that fit how your business works.",
                                     delayperwords: 0,
                                     delay: 0.5,
                                   }),
                                   (0, s.jsx)(i, {
-                                    text: "I've been building websites long enough to have strong opinions about things that don't matter to most people, like whether a transition should be 150ms or 200ms. (It's 150ms, btw). Build the thing, make it work, make it feel good. That's the gig.",
+                                    text: "From landing pages to internal tools, I create maintainable solutions that help you attract customers and grow.",
                                     delayperwords: 0,
                                     delay: 0.5,
                                   }),
@@ -1714,14 +1735,14 @@
                             "text-[length:var(--text-h1)] overflow-clip",
                           children: [
                             (0, s.jsx)(n, {
-                              className: "hidden h-full w-full md:block",
+                              className: "hidden",
                             }),
                             (0, s.jsxs)("span", {
                               className:
-                                "flex flex-col text-[length:var(--text-heading-display)] font-semibold uppercase leading-[80%] tracking-[var(--tracking-heading)] text-[var(--color-secondary-400)] md:hidden",
+                                "flex flex-col text-[length:var(--text-heading-display)] font-semibold uppercase leading-[80%] tracking-[var(--tracking-heading)] text-[var(--color-secondary-400)]",
                               children: [
-                                (0, s.jsx)(o, { text: "ZUNED", delay: 0 }),
-                                (0, s.jsx)(o, { text: "AALIM", delay: 0.3 }),
+                                (0, s.jsx)(o, { text: "GIOU", delay: 0 }),
+                                (0, s.jsx)(o, { text: "BELLINGAN", delay: 0.3 }),
                               ],
                             }),
                           ],
@@ -1776,7 +1797,7 @@
                                           "w-full max-w-[32ch] text-balance text-[length:var(--text-base)] font-medium leading-snug text-[var(--color-secondary-100)] xl:text-[length:var(--text-base-large)] 3xl:text-[length:var(--text-heading-body)]",
                                         children: (0, s.jsx)(i, {
                                           className: "break-words",
-                                          text: "I build fast, modern websites that help businesses grow, available for freelance projects worldwide.",
+                                          text: "I build custom websites and software systems that help businesses save time, get more customers, and scale with confidence.",
                                           delayperwords: 0,
                                           delay: 1.3,
                                         }),
@@ -1819,13 +1840,13 @@
                                     scale: 1.3,
                                   },
                                   children: (0, s.jsx)(m.default, {
-                                    src: "../../../../1.webp",
-                                    alt: "Just an Image.",
-                                    width: 1536,
-                                    height: 2040,
+                                    src: "/GB-transparent.png",
+                                    alt: "Giou Bellingan logo",
+                                    width: 1254,
+                                    height: 1254,
                                     priority: !0,
                                     className:
-                                      "h-full w-full object-cover object-center grayscale",
+                                      "h-full w-full object-contain object-center",
                                   }),
                                 }),
                               }),
@@ -1840,7 +1861,7 @@
                                     className:
                                       "block max-w-[15ch] text-right font-mono text-[length:var(--text-base-small)] font-medium uppercase leading-snug tracking-[var(--tracking-mono)] text-[--color-secondary-100] md:max-w-max 3xl:text-[length:var(--text-base)]",
                                     children: (0, s.jsx)(i, {
-                                      text: "Available for work",
+                                      text: "Available for freelance projects",
                                       delay: 1.3,
                                       delayperwords: 0.01,
                                     }),
@@ -2027,15 +2048,15 @@
                         children: [
                           {
                             text: "Linkedin",
-                            href: "https://www.linkedin.com/in/zunedaalim/",
+                            href: "https://www.linkedin.com/in/giou-keannu-bellingan-94802827a/",
                           },
                           {
-                            text: "Instagram",
-                            href: "https://www.instagram.com/zuned_aalim/",
+                            text: "Facebook",
+                            href: "https://www.facebook.com/giou.keannu.t.bellingan",
                           },
                           {
                             text: "Github",
-                            href: "https://github.com/zunedaalim",
+                            href: "https://github.com/giouuuu",
                           },
                         ].map((e) =>
                           (0, s.jsxs)(
@@ -2082,8 +2103,8 @@
                         className:
                           "font-mono font-medium uppercase tracking-[var(--tracking-mono)] text-[var(--color-secondary-100)]",
                         children: (0, s.jsx)(c, {
-                          timezone: "Asia/Kolkata",
-                          shortName: "IST",
+                          timezone: "Asia/Manila",
+                          shortName: "PHT",
                         }),
                       }),
                     ],

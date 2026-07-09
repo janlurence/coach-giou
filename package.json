@@ -1,0 +1,8 @@
+{
+  "name": "coach-giou",
+  "private": true,
+  "scripts": {
+    "update": "python3 apply-giou-data.py",
+    "build": "python3 apply-giou-data.py"
+  }
+}

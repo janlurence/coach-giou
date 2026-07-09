@@ -1,0 +1,205 @@
+{
+  "identity": {
+    "name": "Giou Bellingan",
+    "displayNameLine1": "GIOU",
+    "displayNameLine2": "BELLINGAN",
+    "title": "Full Stack Web Developer / Custom Software Developer",
+    "tagline": "Web Systems for Growing Businesses",
+    "bio": "I build custom websites and software systems that help business owners automate work, attract customers, and scale their business.",
+    "profileImage": "profile.jpg",
+    "heroImage": "GB-transparent.png"
+  },
+  "seo": {
+    "title": "Giou Bellingan — Full Stack Web Developer",
+    "description": "Giou Bellingan builds custom websites and software systems for business owners who want to save time, get more customers, and scale with confidence.",
+    "keywords": [
+      "Giou Bellingan",
+      "full stack developer",
+      "web developer",
+      "custom software developer",
+      "business systems",
+      "website developer",
+      "React developer",
+      "Philippines",
+      "freelance developer"
+    ],
+    "url": "https://gioubellingan.com"
+  },
+  "contact": {
+    "email": "gioukeannu@gmail.com",
+    "location": "Philippines, UTC+8",
+    "availability": "Available for freelance projects"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/giou-keannu-bellingan-94802827a/",
+    "facebook": "https://www.facebook.com/giou.keannu.t.bellingan",
+    "github": "https://github.com/giouuuu"
+  },
+  "nav": [
+    { "label": "Services", "href": "#Services" },
+    { "label": "Works", "href": "#Works" },
+    { "label": "About", "href": "#About" },
+    { "label": "Contact", "href": "#Contact" }
+  ],
+  "hero": {
+    "subtitle": "I build custom websites and software systems that help businesses save time, get more customers, and scale with confidence.",
+    "cta": "LET'S BUILD YOUR SYSTEM ↗",
+    "ctaHref": "#Contact"
+  },
+  "services": {
+    "label": "Services",
+    "heading": "What I Do /",
+    "intro": "I build custom digital systems for businesses that are ready to grow. Whether you need a professional website, a booking system, a customer portal, or tools to automate daily operations, I create solutions that help your business run smarter, move faster, and scale with confidence.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Full-Stack Development",
+        "description": "I build complete web applications and software systems—from business websites and dashboards to booking tools and custom platforms that support your daily operations.",
+        "bullets": [
+          "React, Next.js, Tailwind CSS",
+          "Node.js, Express.js, REST APIs",
+          "Firebase, Supabase, PostgreSQL"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "System Consultant",
+        "description": "I help business owners figure out what system they actually need, analyze workflows, and turn requirements into a clear digital solution that saves time and supports growth.",
+        "bullets": [
+          "Business requirements analysis",
+          "Workflow planning and process improvement",
+          "System architecture and feature planning"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Business Website & Automation",
+        "description": "I create professional websites and automation tools—from landing pages and forms to dashboards and integrations—that help businesses attract customers and run more efficiently.",
+        "bullets": [
+          "Landing pages and business websites",
+          "Forms, dashboards, and customer management",
+          "Automation, integrations, and reporting tools"
+        ]
+      }
+    ]
+  },
+  "works": {
+    "label": "Projects",
+    "heading": "Selected Works /",
+    "intro": "Practical digital systems built for businesses that need reliable tools, clear workflows, and room to grow.",
+    "items": [
+      {
+        "name": "UA Production System",
+        "type": "Business Website",
+        "link": "#",
+        "image": "UA Enterprise.png",
+        "muxid": "",
+        "description": "This application solves the current production visibility problem by tracking every item produced from the production floor through packing, helping identify where item counts drop before final processing. It provides real-time order tracking so teams can monitor production progress, packed quantities, pending items, and shortages as they happen. The MVP includes production item tracking, real-time order status, warehouse selection, role-based access, admin user management, admin role management, permission controls, and a shared dashboard for monitoring operational activity. Supporting features such as secure login, session management, user invitations, and controlled navigation ensure the right people can manage production data while keeping accountability clear across the workflow.",
+        "year": "6"
+      },
+      
+      {
+        "name": "UA Production and Inventory System Mobile App",
+        "type": "Business Tool",
+        "link": "#",
+        "image": "UA Prod App.png",
+        "muxid": "",
+        "description": "This application ensures streamlined production and inventory operations by allowing teams to keep tracking, managing, and validating production data even without an active internet connection, while providing the same core functionality as the UA Enterprise Production and Inventory system.",
+        "year": "2026"
+      },
+      {
+        "name": "King Pata POS",
+        "type": "Dashboard",
+        "link": "#",
+        "image": "kp.png",
+        "muxid": "",
+        "description": "King Pata POS is a secure, branch-focused point-of-sale and order management system designed to streamline daily restaurant operations. It enables staff to process walk-in orders, manage online orders, verify payments, monitor active queues, and maintain accurate branch-level workflows in one centralized application. The system solves the problem of disorganized manual order handling by improving transaction accuracy, staff accountability, payment tracking, and operational visibility. With device verification, branch-based access control, and real-time order management, King Pata POS helps business owners run each branch more efficiently, securely, and professionally",
+        "year": "2026"
+      },
+      {
+        "name": "Field Sales Automation",
+        "type": "Business Tool",
+        "link": "#",
+        "image": "FSA.png",
+        "muxid": "",
+        "description": "I built a Flutter-based field sales automation application that solves the challenge of limited visibility into field agent activity and customer visit compliance. Its core MVP focuses on tracking field agents’ progress and verifying whether they physically visited assigned customers through geolocation-supported check-ins and route activity monitoring. In addition to field tracking, the platform brings together operational workflows such as order taking, sales collection, bank deposits, remittance processing, and customer account management in one mobile system. This project reflects my ability to design practical business solutions that improve accountability, strengthen operational oversight, and support more efficient field execution.",
+        "year": "2026"
+      },
+      {
+        "name": "Sales Order And Invoice System",
+        "type": "Marketing Website",
+        "link": "#",
+        "muxid": "",
+        "image": "so.png",
+        "description": "The Sales Order and Invoice System is designed to streamline and improve the ordering and invoicing process for customers. It supports organizational approval workflows based on the specific requirements and specifications of the organization. With role-based access control (RBAC), users can securely manage tasks and permissions according to their assigned roles. This helps improve operational efficiency, accuracy, and control across the entire sales order and billing process.",
+        "year": "2025"
+      }
+    ]
+  },
+  "about": {
+    "headingLine1": "BUSINESS",
+    "headingLine2": "SYSTEMS",
+    "tagline": "I turn manual workflows into digital systems that save time.",
+    "bio": "I build websites, dashboards, and automations that fit how your business works.",
+    "bioParagraph2": "From landing pages to internal tools, I create maintainable solutions that help you attract customers and grow.",
+    "availability": "Available for freelance projects",
+    "cta": "CONTACT ↗",
+    "ctaHref": "#Contact"
+  },
+  "skills": {
+    "heading": "Skills",
+    "categories": [
+      {
+        "name": "Languages & Tools",
+        "items": [
+          "TypeScript",
+          "JavaScript",
+          "Python",
+          "SQL",
+          "Git",
+          "PostgreSQL",
+          "Firebase",
+          "Supabase"
+        ]
+      },
+      {
+        "name": "Frameworks & Libraries",
+        "items": [
+          "React",
+          "Laravel",
+          "Fast API",
+          "Next.js",
+          "Tailwind CSS",
+          "Node.js",
+          "Express.js",
+          "REST APIs"
+        ]
+      },
+      {
+        "name": "Business & Systems",
+        "items": [
+          "Business requirements analysis",
+          "Workflow planning and process improvement",
+          "System architecture and feature planning",
+          "Landing pages and business websites",
+          "Forms, dashboards, and customer management"
+        ]
+      }
+    ]
+  },
+  "contactForm": {
+    "sectionHeading": "Let's Make It Happen",
+    "heading": "Have a project in mind?",
+    "submitLabel": "Get a quote",
+    "placeholders": {
+      "name": "Your name",
+      "email": "Your email address",
+      "message": "Tell me about your business or project"
+    }
+  },
+  "footer": {
+    "menuLabel": "Menu",
+    "socialsLabel": "Socials",
+    "copyright": "Giou Bellingan"
+  }
+}
