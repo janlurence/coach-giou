@@ -257,7 +257,7 @@ def extract_works_media(js: str) -> list[dict]:
     block = js[bounds[0] : bounds[1]]
     entries = []
     for obj_match in re.finditer(
-        r'src:\s*"([^"]*)",\s*muxid:\s*"([^"]*)",\s*type:\s*"([^"]*)",\s*name:\s*"([^"]*)",\s*link:\s*"([^"]*)",\s*blurDataUrl:\s*(?:"([^"]*)"|(?:\n\s*"([^"]*)"))',
+        r'src:\s*"([^"]*)",\s*muxid:\s*"([^"]*)",\s*type:\s*"([^"]*)",\s*name:\s*"([^"]*)",\s*link:\s*"([^"]*)",(?:\s*year:\s*"[^"]*",)?\s*blurDataUrl:\s*(?:"([^"]*)"|(?:\n\s*"([^"]*)"))',
         block,
         re.DOTALL,
     ):
@@ -736,10 +736,9 @@ def patch_js(js: str, data: dict) -> str:
 
     # Works array used by React hydration (scramble animation reads name from here)
     works_bounds = find_works_array_bounds(js)
-    works_media = extract_works_media(js)
-    if works_bounds and works_media:
+    if works_bounds:
         start, end = works_bounds
-        js = js[:start] + works_js_array(data["works"], works_media) + js[end:]
+        js = js[:start] + works_js_array(data["works"], []) + js[end:]
 
     # Skills object used by React hydration
     js = re.sub(

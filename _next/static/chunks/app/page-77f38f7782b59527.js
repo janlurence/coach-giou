@@ -1037,20 +1037,20 @@
                 "../../../../_external/res.cloudinary.com/dnocsf5bq/image/upload/w_10,q_1/v1748325061/6_jugckf.webp",
             },
             {
+              src: "../../../../UA%20Prod%20App.png",
+              muxid: "",
+              type: "Business Tool",
+              name: "UA Production and Inventory System Mobile App",
+              link: "#",
+              year: "2026",
+              blurDataUrl:
+                "../../../../_external/res.cloudinary.com/dnocsf5bq/image/upload/w_10,q_1/v1748325070/3_nzf5vb.jpg",
+            },
+            {
               src: "../../../../kp.png",
               muxid: "",
               type: "Dashboard",
               name: "King Pata POS",
-              link: "#",
-              year: "2026",
-              blurDataUrl:
-                "../../../../kp.png",
-            },
-            {
-              src: "2_frjjt5",
-              muxid: "",
-              type: "Business Tool",
-              name: "UA Production and Inventory System Mobile App",
               link: "#",
               year: "2026",
               blurDataUrl:
@@ -1074,7 +1074,7 @@
               link: "#",
               year: "2025",
               blurDataUrl:
-                "../../../../so.png",
+                "../../../../_external/res.cloudinary.com/dnocsf5bq/image/upload/w_10,q_1/v1748325060/1_phf5ng.webp",
             }
           ];
         return (
